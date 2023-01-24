@@ -5,12 +5,12 @@ public class Conta {
 	private int numero;
 	private Cliente titular;
 
-    public void saca(double valor){
-        if(valor > 0 && saldo >= valor){
-            saldo -= valor;
-        }
-    }
-    
+	public void saca(double valor) {
+		if (valor > 0 && saldo >= valor) {
+			saldo -= valor;
+		}
+	}
+
 	public void deposita(double valor) {
 		this.saldo += valor;
 	}
